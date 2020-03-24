@@ -5,7 +5,7 @@ layout: null
   let params = new URLSearchParams(window.location.search);
   let filename = params.get('filename');
   let canvas = params.get('canvas');
-  var test2 = {{site.data[filename] }}
+  var test2 = {{site.data[filename] | jsonify}}
   var test = {{site.data | where_exp: 'item', 'item[0] contains filename' | jsonify }}
   if (canvas) {
     console.log(canvas)
