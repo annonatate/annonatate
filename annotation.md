@@ -3,5 +3,11 @@ layout: null
 ---
 <script>
   let params = new URLSearchParams(window.location.search);
-  console.log(params)
+  let filename = params.get('filename');
+  let canvas = params.get('canvas');
+  if (canvas) {
+    console.log(canvas)
+  } else {
+    console.log(filename)
+  }
 </script>
