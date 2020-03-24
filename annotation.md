@@ -1,16 +1,15 @@
 ---
 layout: null
 ---
+<p id="json"></p>
 <script>
   let params = new URLSearchParams(window.location.search);
   let filename = params.get('filename');
   let canvas = params.get('canvas');
   var content = {{site.data | jsonify }}
-  console.log(content[filename])
   if (canvas) {
-    console.log(canvas)
+    console.log(Object.values(content).filter(elem => elem['on'][0]['full'] == canvas))
   } else {
-    console.log(filename)
-    console.log(test)
+    document.getElementById("json").innerHTML = content[filename];
   }
 </script>
