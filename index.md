@@ -6,5 +6,5 @@ layout: null
 {% assign my_array = my_array | push: {{file[1] |jsonify|escape}} %}
 {% endfor %}
 
-{{my_array | inspect}}
+{{my_array | group_by: 'on' | inspect}}
 
