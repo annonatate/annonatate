@@ -10,6 +10,6 @@ layout: null
   if (canvas) {
     console.log(Object.values(content).filter(elem => elem['on'][0]['full'] == canvas))
   } else {
-    document.getElementById("json").innerHTML = content[filename];
+    document.getElementById("json").innerHTML = JSON.stringify(content[filename]);
   }
 </script>
