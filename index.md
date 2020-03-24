@@ -1,6 +1,4 @@
 ---
 layout: null
 ---
-{% for file in site.data %}
-   * [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
-{% endfor %}
+{ {% for file in site.data %}{{file[0]}} : {{file[1] | jsonify | escape}}{% unless forloop.last %},{% endunless %}{% endfor %} }
