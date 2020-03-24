@@ -5,14 +5,12 @@ layout: null
   let params = new URLSearchParams(window.location.search);
   let filename = params.get('filename');
   let canvas = params.get('canvas');
-  console.log({{site.data.first | jsonify }})
-  var test2 = {{site.data[filename] | jsonify}}
-  var test = {{site.data | where_exp: 'item', 'item[0] contains filename' | jsonify }}
+  var content = {{site.data | jsonify }}
+  var test = content.filter(elem => elem['@id'].indexOf(filename) != -1)
   if (canvas) {
     console.log(canvas)
   } else {
     console.log(filename)
     console.log(test)
-    console.log(test2)
   }
 </script>
