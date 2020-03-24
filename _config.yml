@@ -1,1 +1,5 @@
 theme: jekyll-theme-midnight
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:name
