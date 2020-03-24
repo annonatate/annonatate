@@ -11,8 +11,8 @@ layout: null
     var resources = Object.values(content).filter(elem => elem['on'][0]['full'] == canvas);
     var listannotation = `{"@context":"http://iiif.io/api/presentation/2/context.json",
             "@type": "sc:AnnotationList", "@id": "${window.location.href}", "resources": ${resources} }`
-    document.getElementById("json").innerHTML = JSON.stringify(listannotation);
+    document.getElementById("json").innerHTML = escape(JSON.stringify(listannotation));
   } else {
-    document.getElementById("json").innerHTML = JSON.stringify(content[filename]);
+    document.getElementById("json").innerHTML = escape(JSON.stringify(content[filename]));
   }
 </script>
