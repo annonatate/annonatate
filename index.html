@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>Heading</h1>
-
-<p>Paragraph.</p>
-
+{% for file in site.static_files %}
+   * [{{ file.path }}]({{ site.baseurl }}{{ file.path }})
+{% endfor %}
 </body>
 </html>
