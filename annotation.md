@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
 <p id="json"></p>
 <script>
   let params = new URLSearchParams(window.location.search);
@@ -10,9 +11,9 @@ layout: null
   if (canvas) {
     var resources = Object.values(content).filter(elem => elem['on'][0]['full'] == canvas);
     var listannotation = `{"@context":"http://iiif.io/api/presentation/2/context.json",
-            "@type": "sc:AnnotationList", "@id": "${window.location.href}", "resources": ${escape(JSON.stringify(resources))} }`
+            "@type": "sc:AnnotationList", "@id": "${window.location.href}", "resources": ${_.escape(JSON.stringify(resources))} }`
     document.getElementById("json").innerHTML = listannotation;
   } else {
-    document.getElementById("json").innerHTML = escape(JSON.stringify(content[filename]));
+    document.getElementById("json").innerHTML = _.escape(JSON.stringify(content[filename]));
   }
 </script>
