@@ -2,7 +2,7 @@
 layout: null
 ---
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
-<p id="json"></p>
+<div id="json"></div>
 <script>
   let params = new URLSearchParams(window.location.search);
   let filename = params.get('filename');
