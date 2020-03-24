@@ -2,5 +2,5 @@
 layout: null
 ---
 {% for file in site.data %}
-   * {{file | jsonify}}
+   * {{file | jsonify | unescape}}
 {% endfor %}
