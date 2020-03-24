@@ -1,5 +1,7 @@
 ---
 layout: null
 ---
-{{ page.url.params }}
-{{ page.url | inspect }}
+<script>
+  let params = new URLSearchParams(window.location.search);
+  console.log(params)
+</script>
