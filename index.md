@@ -2,5 +2,5 @@
 layout: null
 ---
 {% for file in site.data %}
-   * {{file.content}}
+   * {{file | inspect}}
 {% endfor %}
