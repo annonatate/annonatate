@@ -1,1 +1,12 @@
 theme: jekyll-theme-midnight
+collections:
+  annotations:
+    output: true
+    permalink: /annotations/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "annotations"
+    values:
+      layout: null
