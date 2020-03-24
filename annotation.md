@@ -6,9 +6,7 @@ layout: null
   let filename = params.get('filename');
   let canvas = params.get('canvas');
   var content = {{site.data | jsonify }}
-  console.log(content)
-  
-  var test = content.filter(elem => elem['@id'].indexOf(filename) != -1)
+  console.log(content[filename])
   if (canvas) {
     console.log(canvas)
   } else {
