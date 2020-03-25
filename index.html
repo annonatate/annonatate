@@ -1,8 +1,6 @@
 ---
 layout: none
 ---
-'testing'
-{{site.annotations | inspect}}
 [{% for file in site.annotations %}{
 {{'filename' | jsonify}}:{{file.url| jsonify}},{{'canvas' | jsonify}}:{{file.content['on'][0]['full']| jsonify}},{{'json' | jsonify}}:{{file.content |jsonify | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}]
