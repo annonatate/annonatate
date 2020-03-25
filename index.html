@@ -4,7 +4,7 @@ layout: none
 [{% for file in site.annotations %}{
 {{file.content.motivation | inspect}}
 {{file.content['motivation'] | inspect}}
-{% assign resource = file | map: "on" | first %}
+{% assign resource = file | map: "on" %}
 {{resource | inspect}}
 {{file.content['on'].first['full'] | inspect}}
 
