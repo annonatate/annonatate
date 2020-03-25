@@ -2,5 +2,5 @@
 layout: none
 ---
 [{% for file in site.annotations %}{
-{{'filename' | jsonify}}:{{site.baseurl | append: file.url| jsonify}},{{'canvas' | jsonify}}:{{file.content['on'][0]['full']| jsonify}},{{'json' | jsonify}}:{{file.content |jsonify | replace: "<", "&lt;" | replace: ">", "&gt;"}}
+{{'filename' | jsonify}}:{{site.baseurl | append: file.url| jsonify}},{{'canvas' | jsonify}}:{{file.content['on'][0]['full']| jsonify}},{{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}]
