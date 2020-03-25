@@ -1,0 +1,4 @@
+---
+canvas_id: "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001"
+---
+{% assign annotations = site.pages | where: "canvas", page.canvas_id | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","@id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }
