@@ -2,7 +2,10 @@
 layout: none
 ---
 [{% for file in site.annotations %}{
-{{file.content | inspect}}
+{{file.content.motivation | inspect}}
+{{file.content['motivation'] | inspect}}
+{% assign resource = file | map: "on" | first %}
+{{resource | inspect}}
 {{file.content['on'].first['full'] | inspect}}
 
 {{'filename' | jsonify}}:{{site.baseurl | append: file.url| jsonify}},{{'canvas' | jsonify}}:{{file.content['on'][0]['full']| jsonify}},{{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
