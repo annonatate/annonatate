@@ -8,14 +8,9 @@ layout: none
   "label": "objects",
   "manifests": [
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/test/manifest.json",
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/world_map/manifest.json",
       "@type": "sc:Manifest",
-      "label": "test"
-    },
-    {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/test2/manifest.json",
-      "@type": "sc:Manifest",
-      "label": "test2"
+      "label": "world_map"
     }
   ]
 }
