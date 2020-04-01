@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "World_Map_1689",
+  "@id": "{{site.url}}{{site.baseurl}}/images/World_Map_1689",
   "height": 3936,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
