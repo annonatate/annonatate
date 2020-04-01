@@ -1,0 +1,48 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{site.url}}{{site.baseurl}}images/World_Map_1689/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "world map",
+  "metadata": [
+    {
+      "label": "rights",
+      "value": ""
+    }
+  ],
+  "viewingDirection": "left-to-right",
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@id": "{{site.url}}{{site.baseurl}}images/World_Map_1689/info.json",
+          "@type": "sc:Canvas",
+          "label": "world map",
+          "height": 3936,
+          "width": 4560,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{site.url}}{{site.baseurl}}images/World_Map_1689/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 3936,
+                "width": 4560,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{site.url}}{{site.baseurl}}images/World_Map_1689/{{site.url}}{{site.baseurl}}images/World_Map_1689.json",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "on": "{{site.url}}{{site.baseurl}}images/World_Map_1689/info.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
