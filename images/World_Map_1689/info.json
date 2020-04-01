@@ -1,3 +1,5 @@
+---
+---
 {
   "@context": "http://iiif.io/api/image/2/context.json",
   "@id": "{{site.url}}{{site.baseurl}}/images/World_Map_1689",
