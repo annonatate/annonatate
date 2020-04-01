@@ -1,4 +1,4 @@
 ---
-canvas_id: "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001"
+canvas_id: "https://dnoneill.github.io/annotationtemplate/img/derivatives/iiif/canvas/world_map.json"
 ---
 {% assign annotations = site.annotations | where: "canvas", page.canvas_id | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","@id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }
