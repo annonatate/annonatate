@@ -4,7 +4,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "{{site.url}}{{site.baseurl}}/manifests/manifest.json",
   "@type": "sc:Manifest",
-  "label": "testing",
+  "label": "test",
   "metadata": [
     {
       "label": "rights",
@@ -19,7 +19,7 @@
         {
           "@id": "{{site.url}}{{site.baseurl}}/manifests/info.json",
           "@type": "sc:Canvas",
-          "label": "testing",
+          "label": "test",
           "height": 12982,
           "width": 5207,
           "images": [
