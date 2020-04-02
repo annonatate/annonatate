@@ -2,9 +2,9 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "{{site.url}}{{site.baseurl}}/manifests/00000001.jp2/manifest.json",
+  "@id": "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/manifest.json",
   "@type": "sc:Manifest",
-  "label": "test",
+  "label": "map",
   "metadata": [
     {
       "label": "rights",
@@ -17,9 +17,9 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "{{site.url}}{{site.baseurl}}/manifests/00000001.jp2/info.json",
+          "@id": "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/info.json",
           "@type": "sc:Canvas",
-          "label": "test",
+          "label": "map",
           "height": 12982,
           "width": 5207,
           "images": [
@@ -38,7 +38,7 @@
                   "profile": "http://iiif.io/api/image/2/level2.json"
                 }
               },
-              "on": "{{site.url}}{{site.baseurl}}/manifests/00000001.jp2/info.json"
+              "on": "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/info.json"
             }
           ]
         }
