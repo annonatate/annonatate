@@ -2,7 +2,7 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://testing.com/manifest",
+  "@id": "https://{site.url}{site.baseurl}/manifests/00000001.jp2/manifest.json",
   "@type": "sc:Manifest",
   "label": "map",
   "metadata": [
