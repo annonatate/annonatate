@@ -2,7 +2,7 @@
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/{site.url}{site.baseurl}/manifests/00000001.jp2/manifest.json",
+  "@id": "https://dnoneill.github.io/annotationtemplate//manifests/00000001.jp2/manifest.json",
   "@type": "sc:Manifest",
   "label": "map",
   "metadata": [
