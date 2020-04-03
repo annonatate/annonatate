@@ -1,4 +1,0 @@
----
-canvas_id: "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/info.json"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","@id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }
