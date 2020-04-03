@@ -7,8 +7,13 @@
 {% assign item = manifest | prepend: site.baseurl | prepend: site.url %}
  {% assign manifestarray = manifestarray | push: item %}
 {% endfor %}
+{% assign customviewarray = '' | split: '' %}
+{% for customview in customviews %}
+{% assign item = customview | prepend: site.baseurl | prepend: site.url %}
+ {% assign customviewarray = customviewarray | push: item %}
+{% endfor %}
 {"annotations": [{% for file in site.annotations %}{
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
-"manifests": {{manifestarray | jsonify}}, "customviews": {{customviews | jsonify}}
+"manifests": {{manifestarray | jsonify}}, "customviews": {{customviewarray | jsonify}}
 }
