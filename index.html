@@ -13,7 +13,7 @@
  {% assign customviewarray = customviewarray | push: item %}
 {% endfor %}
 {"annotations": [{% for file in site.annotations %}{
-{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}}{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
+{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
 "manifests": {{manifestarray | jsonify}}, "customviews": {{customviewarray | jsonify}}
 }
