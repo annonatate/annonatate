@@ -1,0 +1,5 @@
+---
+canvas: "https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1997-11-10_0002/info.json"
+order: 1
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "testing", "purpose": "commenting", "created": "2020-07-24T22:45:46.719Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}, {"type": "TextualBody", "purpose": "tagging", "value": "testing", "created": "2020-07-24T22:45:45.198Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1205.974365234375,1259.0086669921875,534.762451171875,347.4599609375"}, "id": "https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1997-11-10_0002/info.json"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/6a037ef0-cdff-11ea-a669-a7fd3086462b.json"}
