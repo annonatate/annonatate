@@ -1,0 +1,5 @@
+---
+canvas: "https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1997-11-10_0009/info.json"
+order: 2
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "Basketball coaches<br>", "purpose": "commenting", "created": "2020-07-24T23:18:49.172Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"236.5535888671875,2644.33642578125 445.94683837890625,2627.44970703125 1344.3115234375,2661.22265625 1311.289306640625,3326.29833984375 210.387451171875,3284.279296875 210.387451171875,3284.279296875 210.387451171875,3284.279296875 210.387451171875,3284.279296875 236.5535888671875,2644.33642578125\"></polygon></svg>"}, "id": "https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1997-11-10_0009/info.json"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/07a5d140-ce04-11ea-beeb-9505b8e6f58e.json"}
