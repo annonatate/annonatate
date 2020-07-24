@@ -1,0 +1,5 @@
+---
+canvas: "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2"
+order: 3
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "testing", "purpose": "commenting", "created": "2020-07-24T22:21:42.798Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"3054.12939453125,1973.38671875 4061.7197265625,2261.26953125 2826.853515625,2973.40087890625 2985.94677734375,2321.87646484375 2985.94677734375,2321.87646484375 2985.94677734375,2321.87646484375 3054.12939453125,1973.38671875\"></polygon></svg>"}, "id": "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/0d5ea2e0-cdfc-11ea-97a9-5f14a91968f8.json"}
