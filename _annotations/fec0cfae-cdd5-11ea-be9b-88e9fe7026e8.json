@@ -1,0 +1,5 @@
+---
+canvas: "https://libimages1.princeton.edu/loris/pudl0001%2F4609321%2Fs42%2F00000001.jp2/"
+order: 1
+---
+{"type": "Annotation", "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:695.2061767578125,1431.266845703125,9.7034912109375,1"}, "id": "https://libimages1.princeton.edu/loris/pudl0001%2F4609321%2Fs42%2F00000001.jp2/"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "test", "created": "2020-07-24T17:49:17.374Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "#febd04f0-cdd5-11ea-8ab7-990525936505", "@id": "{{site.url}}{{site.baseurl}}/annotations/fec0cfae-cdd5-11ea-be9b-88e9fe7026e8.json"}
