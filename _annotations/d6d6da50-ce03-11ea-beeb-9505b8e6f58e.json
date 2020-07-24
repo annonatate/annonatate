@@ -1,0 +1,5 @@
+---
+canvas: "https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1997-11-10_0009/info.json"
+order: 1
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "wolfpack fans<br>", "purpose": "commenting", "created": "2020-07-24T23:17:27.284Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}, {"type": "TextualBody", "purpose": "tagging", "value": "wolfpack", "created": "2020-07-24T23:17:26.069Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1278.436767578125,2477.26123046875,294.54541015625,69.0908203125"}, "id": "https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1997-11-10_0009/info.json"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/d6d6da50-ce03-11ea-beeb-9505b8e6f58e.json"}
