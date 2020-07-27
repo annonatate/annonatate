@@ -1,0 +1,5 @@
+---
+canvas: "https://images.cogapp.com/iiif/holbein_big_p.tif/info.json"
+order: 2
+---
+{"type": "Annotation", "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"23748.662109375,3886.133056640625 23748.662109375,3886.133056640625 23527.4921875,4612.83349609375 24269.990234375,4897.19482421875 24554.3515625,6666.55224609375 25439.029296875,7061.49853515625 27034.611328125,6018.84130859375 27176.79296875,4991.9814453125 27935.087890625,3822.941650390625 25217.861328125,2890.869384765625 25217.861328125,2890.869384765625 25217.861328125,2890.869384765625 23748.662109375,3886.133056640625\"></polygon></svg>"}, "id": "https://images.cogapp.com/iiif/holbein_big_p.tif/info.json"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "Man's head", "created": "2020-07-27T23:09:32.134Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/3addd060-d05e-11ea-8986-154f654caa8b.json"}
