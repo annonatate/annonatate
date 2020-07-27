@@ -1,0 +1,5 @@
+---
+canvas: "https://dnoneill.github.io/annotationtemplate/images/World_Map_1689/info.json"
+order: 1
+---
+{"type": "Annotation", "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1285.855712890625,551.8515625,770.968994140625,519.3896484375"}, "id": "https://dnoneill.github.io/annotationtemplate/images/World_Map_1689/info.json"}, "body": [{"type": "TextualBody", "purpose": "tagging", "value": "testing", "created": "2020-07-27T22:30:05.043Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/b8867360-d058-11ea-b54f-b999d2a3f894.json"}
