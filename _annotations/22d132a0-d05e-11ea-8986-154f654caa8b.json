@@ -1,0 +1,5 @@
+---
+canvas: "https://images.cogapp.com/iiif/holbein_big_p.tif/info.json"
+order: 1
+---
+{"type": "Annotation", "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"7358.58837890625,10397.8525390625 8646.1240234375,11159.7080078125 6231.04150390625,11662.533203125 6954.8046875,10816.873046875 6954.8046875,10816.873046875 6954.8046875,10816.873046875 7358.58837890625,10397.8525390625\"></polygon></svg>"}, "id": "https://images.cogapp.com/iiif/holbein_big_p.tif/info.json"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "triangle", "created": "2020-07-27T23:08:51.785Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/22d132a0-d05e-11ea-8986-154f654caa8b.json"}
