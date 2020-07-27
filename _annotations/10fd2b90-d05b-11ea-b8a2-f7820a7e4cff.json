@@ -1,0 +1,5 @@
+---
+canvas: "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/info.json"
+order: 1
+---
+{"type": "Annotation", "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1171.4652099609375,5674.6064453125,1632.7874755859375,1391.88427734375"}, "id": "https://libimages.princeton.edu/loris/pudl0076/map_pownall/00000001.jp2/info.json"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "test", "created": "2020-07-27T22:46:53.384Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/10fd2b90-d05b-11ea-b8a2-f7820a7e4cff.json"}
