@@ -1,0 +1,5 @@
+---
+canvas: "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/canvas/c0.json"
+order: 1
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "Frame", "purpose": "commenting", "created": "2020-07-28T22:17:17.428Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"129.99996948242188,86.00565338134766 183.6363525390625,87.8238296508789 171.81814575195312,131.460205078125 130.9090576171875,131.460205078125 131.81814575195312,119.64200592041016 131.81814575195312,119.64200592041016 131.81814575195312,119.64200592041016 129.99996948242188,86.00565338134766\"></polygon></svg>"}, "dcterms:isPartOf": {"id": "https://tools.wmflabs.org/wd-image-positions/iiif/Q64686074/P18/manifest.json", "type": "Manifest"}, "id": "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/canvas/c0.json"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/18d9b160-d120-11ea-bc5d-01081d904424.json"}
