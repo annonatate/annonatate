@@ -1,0 +1,5 @@
+---
+canvas: "http://images.qdl.qa/iiif/images/81055/vdc_100000000044.0x0003ca/Add 18866_0262.jp2/canvas"
+order: 1
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "testing", "purpose": "commenting", "created": "2020-07-28T22:18:54.570Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"1703.28759765625,1182.571044921875 2656.059326171875,1623.8548583984375 2425.388427734375,831.5498046875 2415.359130859375,861.6373291015625 2415.359130859375,861.6373291015625 2415.359130859375,861.6373291015625 1703.28759765625,1182.571044921875\"></polygon></svg>"}, "dcterms:isPartOf": {"id": "https://storiiies.cogapp.com/qdl/manifest.json", "type": "Manifest"}, "id": "http://images.qdl.qa/iiif/images/81055/vdc_100000000044.0x0003ca/Add 18866_0262.jp2/canvas"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/52c014a0-d120-11ea-beb4-c38ccd85966d.json"}
