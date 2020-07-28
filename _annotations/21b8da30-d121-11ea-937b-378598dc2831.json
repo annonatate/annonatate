@@ -1,0 +1,5 @@
+---
+canvas: "https://minicomp.github.io/wax/img/derivatives/iiif/canvas/obj10.json"
+order: 3
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "poly", "purpose": "commenting", "created": "2020-07-28T22:24:41.811Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"1176.5872802734375,1714.0892333984375 1731.63916015625,1969.490478515625 1392.0360107421875,2146.291748046875 1392.0360107421875,2146.291748046875 1392.0360107421875,2146.291748046875 1392.0360107421875,2146.291748046875 1176.5872802734375,1714.0892333984375\"></polygon></svg>"}, "dcterms:isPartOf": {"id": "https://minicomp.github.io/wax/img/derivatives/iiif/obj10/manifest.json", "type": "Manifest"}, "id": "https://minicomp.github.io/wax/img/derivatives/iiif/canvas/obj10.json"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/21b8da30-d121-11ea-937b-378598dc2831.json"}
