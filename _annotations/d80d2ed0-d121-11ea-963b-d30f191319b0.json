@@ -1,0 +1,5 @@
+---
+canvas: "https://wd-image-positions.toolforge.org/iiif/Q14619160/P18/canvas/c0.json"
+order: 2
+---
+{"type": "Annotation", "body": [{"type": "TextualBody", "value": "test", "purpose": "commenting", "created": "2020-07-28T22:29:47.709Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:122.35295104980469,75.70588684082031,137.82350158691406,82.17646789550781"}, "dcterms:isPartOf": {"id": "https://wd-image-positions.toolforge.org/iiif/Q14619160/P18/manifest.json", "type": "Manifest"}, "id": "https://wd-image-positions.toolforge.org/iiif/Q14619160/P18/canvas/c0.json"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/d80d2ed0-d121-11ea-963b-d30f191319b0.json"}
