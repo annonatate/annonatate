@@ -1,4 +1,0 @@
----
-canvas_id: "https://wd-image-positions.toolforge.org/iiif/Q64686074/P18/canvas/c0.json"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }

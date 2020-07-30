@@ -1,5 +1,0 @@
----
-canvas: "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1997-11-10_0002"
-order: 1
----
-{"type": "Annotation", "target": {"selector": {"type": "SvgSelector", "value": "<svg><polygon points=\"450.85101318359375,214.96896362304688 1084.137939453125,691.3866577148438 503.1407470703125,970.2653198242188 485.7108459472656,935.4054565429688 485.7108459472656,935.4054565429688 485.7108459472656,935.4054565429688 450.85101318359375,214.96896362304688\"></polygon></svg>"}, "dcterms:isPartOf": {"id": "https://d.lib.ncsu.edu/collections/catalog/technician-basketballpreview-1997-11-10/manifest.json", "type": "Manifest"}, "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1997-11-10_0002"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "test", "created": "2020-07-28T22:28:31.823Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/aad1e5f0-d121-11ea-9f02-371c20d0d763.json"}

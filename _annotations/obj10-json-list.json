@@ -1,4 +1,0 @@
----
-canvas_id: "https://minicomp.github.io/wax/img/derivatives/iiif/canvas/obj10.json"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }

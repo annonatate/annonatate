@@ -1,5 +1,0 @@
----
-canvas: "https://d.lib.ncsu.edu/collections/canvas/LD3928-A22-1913_0001"
-order: 1
----
-{"type": "Annotation", "body": [{"type": "TextualBody", "value": "catalogue", "purpose": "commenting", "created": "2020-07-28T22:20:11.063Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:554.3507080078125,374.5673828125,676.6011962890625,214.44183349609375"}, "dcterms:isPartOf": {"id": "https://d.lib.ncsu.edu/collections/catalog/LD3928-A22-1913/manifest", "type": "Manifest"}, "id": "https://d.lib.ncsu.edu/collections/canvas/LD3928-A22-1913_0001"}, "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/80582380-d120-11ea-b894-ad47ae72a5bb.json"}
