@@ -1,0 +1,5 @@
+---
+canvas: "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/001r/canvas"
+order: 1
+---
+{"type": "Annotation", "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1051.5836181640625,335.60784912109375,880.3626708984375,1184.3551635742188"}, "dcterms:isPartOf": {"id": "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/manifest", "type": "Manifest"}, "id": "https://jdm.library.jhu.edu/iiif-pres-dlmm/rose/AlbiRochegude103/001r/canvas"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "image", "created": "2020-07-30T18:03:38.575Z", "creator": {"id": "dnoneill", "name": "dnoneill"}, "rights": "Placeholderforrights"}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/fe8835f0-d28e-11ea-afdc-f799d7fa4fad.json"}
