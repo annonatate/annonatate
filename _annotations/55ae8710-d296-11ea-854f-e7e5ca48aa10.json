@@ -1,0 +1,5 @@
+---
+canvas: "https://manifests.britishart.yale.edu/canvas/ba-obj-722-0008-bar"
+order: 1
+---
+{"type": "Annotation", "target": {"selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:2529.989501953125,1521.630859375,2262.736083984375,2365.229248046875"}, "dcterms:isPartOf": {"id": "https://manifests.britishart.yale.edu/manifest/722", "type": "Manifest"}, "id": "https://manifests.britishart.yale.edu/canvas/ba-obj-722-0008-bar"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "test id", "created": "2020-07-30T18:56:11.265Z", "creator": {"id": "dnoneill", "name": "dnoneill"}, "rights": "Placeholderforrights"}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/55ae8710-d296-11ea-854f-e7e5ca48aa10.json"}
