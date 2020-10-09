@@ -1,0 +1,5 @@
+---
+canvas: "https://manifests.britishart.yale.edu/canvas/ba-obj-722-conservation"
+order: 1
+---
+{"type": "Annotation", "target": {"source": {"naturalWidth": 5715, "naturalHeight": 4499}, "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1887.6953125,911.6752319335938,1788.220703125,1280.2034301757812"}, "dcterms:isPartOf": {"id": "https://manifests.britishart.yale.edu/manifest/722", "type": "Manifest"}, "id": "https://manifests.britishart.yale.edu/canvas/ba-obj-722-conservation"}, "body": [{"type": "TextualBody", "purpose": "commenting", "value": "test", "created": "2020-10-09T22:13:32.328Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}, {"type": "TextualBody", "purpose": "tagging", "value": "test", "created": "2020-10-09T22:13:28.409Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}, {"type": "TextualBody", "purpose": "tagging", "value": "test2", "created": "2020-10-09T22:13:31.156Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/e214f66d-2018-478e-b39f-0ddd0e660d4d.json"}
