@@ -1,0 +1,5 @@
+---
+canvas: "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100110521024.0x000007"
+order: 1
+---
+{"type": "Annotation", "target": {"source": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100111986309.0x000006", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1912.7080078125,1365.8792724609375,130.9451904296875,138.8812255859375"}, "dcterms:isPartOf": {"id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100110521021.0x000001/manifest.json?manifest=https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100110521021.0x000001/manifest.json", "type": "Manifest"}, "id": "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100110521024.0x000007"}, "body": [{"type": "TextualBody", "value": "testing", "purpose": "moderating", "created": "2021-01-11T23:13:43.413Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/da1f5ceb-4802-4759-802d-d10056766d03.json"}
