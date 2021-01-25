@@ -1,4 +1,0 @@
----
-canvas_id: "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100110521024.0x000007"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }

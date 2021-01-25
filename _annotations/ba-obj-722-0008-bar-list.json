@@ -1,4 +1,0 @@
----
-canvas_id: "https://manifests.britishart.yale.edu/canvas/ba-obj-722-0008-bar"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}{"@context": "http://iiif.io/api/presentation/2/context.json","id": "{{ site.url }}{{ site.baseurl }}{{page.url}}","@type": "sc:AnnotationList","resources": [{{ annotations | join: ","}}] }
