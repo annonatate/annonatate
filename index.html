@@ -2,7 +2,7 @@
 ---
 {% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
 {% assign customviews = site.pages | where_exp: 'item', 'item.path contains "customviews"' | map: 'url' %}
-{% assign manifestarray = '' | split: '' %}
+{% assign manifestarray = site.data.manifests %}
 {% for manifest in manifests %}
 {% assign item = manifest | prepend: site.baseurl | prepend: site.url %}
  {% assign manifestarray = manifestarray | push: item %}
