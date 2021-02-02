@@ -1,5 +1,0 @@
----
-canvas: "https://iiif.onb.ac.at/presentation/ABO/Z196807705/canvas/page7"
-order: 1
----
-{"type": "Annotation", "target": {"source": "https://iiif.onb.ac.at/images/ABO/Z196807705/00000007", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:611.1903076171875,1092.5244140625,527.875732421875,158.6392822265625"}, "dcterms:isPartOf": {"id": "https://iiif.onb.ac.at/presentation/ABO/+Z196807705/manifest/", "type": "Manifest"}, "id": "https://iiif.onb.ac.at/presentation/ABO/Z196807705/canvas/page7"}, "body": [{"type": "TextualBody", "created": "2021-01-28T22:41:39.682Z", "modified": "2021-01-28T22:42:21.764Z", "value": "Articulus", "purpose": "describing", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/72590062-1401-4b0e-ad90-2fe414dfeb9f.json"}
