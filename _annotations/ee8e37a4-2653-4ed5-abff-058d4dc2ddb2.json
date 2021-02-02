@@ -1,5 +1,0 @@
----
-canvas: "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json"
-order: 3
----
-{"type": "Annotation", "target": {"source": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/canvas/4665993.json", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:14732.6904296875,13724.1845703125,4061.2373046875,3314.3447265625"}, "dcterms:isPartOf": {"id": "https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json", "type": "Manifest"}}, "body": [{"type": "TextualBody", "purpose": "commenting", "created": "2021-02-02T23:30:56.764Z", "modified": "2021-02-02T23:30:58.131Z", "value": "test3", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/ee8e37a4-2653-4ed5-abff-058d4dc2ddb2.json"}

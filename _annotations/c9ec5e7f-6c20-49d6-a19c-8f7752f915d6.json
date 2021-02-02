@@ -1,5 +1,0 @@
----
-canvas: "https://d.lib.ncsu.edu/collections/canvas/0002386"
-order: 1
----
-{"type": "Annotation", "target": {"source": "https://d.lib.ncsu.edu/collections/canvas/0002386", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1162.7470703125,1917.50537109375,1693.23583984375,1435.32568359375"}, "dcterms:isPartOf": {"id": "https://d.lib.ncsu.edu/collections/catalog/0002386/manifest.json", "type": "Manifest"}}, "body": [{"type": "TextualBody", "purpose": "commenting", "created": "2021-02-02T23:26:28.185Z", "modified": "2021-02-02T23:26:28.721Z", "value": "test", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/c9ec5e7f-6c20-49d6-a19c-8f7752f915d6.json"}

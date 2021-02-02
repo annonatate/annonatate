@@ -1,5 +1,0 @@
----
-canvas: "https://stacks.stanford.edu/image/iiif/wh234bz9013/wh234bz9013_05_0001"
-order: 2
----
-{"@context": "http://www.w3.org/ns/anno.jsonld", "id": "https://dnoneill.github.io/annotationtemplate/annotations/3be52f60-be08-4676-b23f-29708a16c64f.json", "type": "Annotation", "body": [{"created": "2021-02-02T23:12:42.046Z", "creator": {"id": "dnoneill", "name": "dnoneill"}, "modified": "2021-02-02T23:12:42.585Z", "purpose": "commenting", "type": "TextualBody", "value": "test"}], "target": {"source": "https://stacks.stanford.edu/image/iiif/wh234bz9013/wh234bz9013_05_0001", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:4405.99951171875,1924.6380615234375,2070.70458984375,1804.3482666015625"}}}
