@@ -1,0 +1,5 @@
+---
+canvas: "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001"
+order: 1
+---
+{"type": "Annotation", "target": {"source": "https://purl.stanford.edu/wh234bz9013/iiif/canvas/0001", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:3533.506591796875,2291.325927734375,1259.538330078125,1362.69873046875"}, "dcterms:isPartOf": {"id": "https://purl.stanford.edu/wh234bz9013/iiif/manifest", "type": "Manifest"}}, "body": [{"type": "TextualBody", "purpose": "commenting", "created": "2021-02-02T23:49:40.449Z", "modified": "2021-02-02T23:49:40.852Z", "value": "test", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/8b19baa9-9fd1-4485-9308-3deeabb0eefb.json"}
