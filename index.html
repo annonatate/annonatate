@@ -1,5 +1,6 @@
 ---
 ---
+
 {% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
 {% assign customviews = site.pages | where_exp: 'item', 'item.path contains "customviews"' | map: 'url' %}
 {% assign manifestarray = site.data.preload.manifests %}
@@ -8,9 +9,11 @@
  {% assign manifestarray = manifestarray | push: item %}
 {% endfor %}
 {% assign customviewarray = '' | split: '' %}
-{% for customview in customviews %}
-{% assign item = customview | prepend: site.baseurl | prepend: site.url %}
+{% for customview in site.customviews %}
+{% if customview.slug != 'index' %}
+{% assign item = customview.url | prepend: site.baseurl | prepend: site.url %}
  {% assign customviewarray = customviewarray | push: item %}
+{% endif %}
 {% endfor %}
 {"annotations": [{% for file in site.annotations %}{
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
