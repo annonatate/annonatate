@@ -4,6 +4,8 @@ collections:
   annotations:
     output: true
     permalink: /annotations/:name
+    permalink: pretty
   customviews:
     output: true
     peramlink: /customviews/:path
+    permalink: pretty
