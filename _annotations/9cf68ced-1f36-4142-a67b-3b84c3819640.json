@@ -1,0 +1,5 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_004"
+order: 1
+---
+{"type": "Annotation", "target": {"source": "https://d.lib.ncsu.edu/collections/canvas/segIns_004", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:1843.130615234375,490.632080078125,386.0380859375,446.3565673828125"}, "dcterms:isPartOf": {"id": "https://d.lib.ncsu.edu/collections/catalog/segIns_004/manifest", "type": "Manifest"}}, "body": [{"type": "TextualBody", "value": "1", "created": "2021-02-03T21:33:41.067Z", "purpose": "describing", "modified": "2021-02-03T21:33:49.864Z", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/9cf68ced-1f36-4142-a67b-3b84c3819640.json"}
