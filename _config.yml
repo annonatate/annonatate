@@ -7,4 +7,4 @@ collections:
     permalink: /annotations/:name
   customviews:
     output: true
-    peramlink: /customviews/:path
+    peramlink: /customviews/:name
