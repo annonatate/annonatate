@@ -9,5 +9,5 @@ manifests:
   - https://damsssl.llgc.org.uk/iiif/2.0/4665992/manifest.json
   - https://purl.stanford.edu/wh234bz9013/iiif/manifest
 images:
-  - https://upload.wikimedia.org/wikipedia/commons/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg
   - https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
