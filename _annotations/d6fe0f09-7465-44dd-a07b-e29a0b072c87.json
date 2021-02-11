@@ -1,5 +1,0 @@
----
-canvas: "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json"
-order: 1
----
-{"type": "Annotation", "target": {"source": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/canvas/fullBayeux.json", "selector": {"type": "FragmentSelector", "conformsTo": "http://www.w3.org/TR/media-frags/", "value": "xywh=pixel:24585.634765625,320.153076171875,304.89453125,504.25128173828125"}, "dcterms:isPartOf": {"id": "https://dnoneill.github.io/wax-iiif/img/derivatives/iiif/fullBayeux/manifest.json", "type": "Manifest"}}, "body": [{"type": "TextualBody", "purpose": "commenting", "created": "2021-02-03T18:19:48.509Z", "modified": "2021-02-03T18:19:50.289Z", "value": "testing...", "creator": {"id": "dnoneill", "name": "dnoneill"}}], "@context": "http://www.w3.org/ns/anno.jsonld", "id": "{{site.url}}{{site.baseurl}}/annotations/d6fe0f09-7465-44dd-a07b-e29a0b072c87.json"}
