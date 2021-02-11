@@ -1,4 +1,5 @@
 ---
+layout: null
 ---
 
 {% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
