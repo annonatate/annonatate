@@ -6,12 +6,12 @@ permalink: /
 {% assign collections = site.pages | where_exp: 'item', 'item.dir == "/collections/"' | sort_natural %}
 {% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
 {% assign customviews = site.pages | where_exp: 'item', 'item.dir contains "customviews"' | sort_natural %}
-{% assign manifestarray = '' | split: "" %}
+{% assign manifestarray = site.data.preload.manifests %}
 {% for manifest in manifests %}
 {% assign item = manifest | prepend: site.baseurl | prepend: site.url %}
  {% assign manifestarray = manifestarray | push: item %}
 {% endfor %}
-{% assign imagearray = '' | split: "" %}
+{% assign imagearray = site.data.preload.images %}
 {% for image in images %}
 {% unless image contains 'assets' %}
  {% assign item = image | prepend: site.baseurl | prepend: site.url %}
@@ -22,7 +22,6 @@ permalink: /
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
 "manifests": {{manifestarray | jsonify}}, "images": {{imagearray| jsonify}}, 
- "preloadedcontent": {{site.data.preload | jsonify}},
 "customviews": [{% for customview in customviews %}{
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: customview.url| jsonify}},{{'json' | jsonify}}:{{customview.content | replace: '<script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>', '' | replace: '<link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">', '' | replace: "<", "&lt;" | replace: ">", "&gt;" | jsonify}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
