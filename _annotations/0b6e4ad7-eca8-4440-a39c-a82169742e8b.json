@@ -1,0 +1,30 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatate",
+                "name": "Annonatate"
+            },
+            "created": "2021-06-11T19:36:00.474Z",
+            "modified": "2021-06-11T19:36:01.039Z"
+        }
+    ],
+    "target": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff/lossy-page1-6819px-Landscape_with_Rainbow_SAAM-1983.95.160_1.tiff.jpg",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:2787.976806640625,780.2042846679688,732.604248046875,690.3197631835938"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/0b6e4ad7-eca8-4440-a39c-a82169742e8b.json"
+}
