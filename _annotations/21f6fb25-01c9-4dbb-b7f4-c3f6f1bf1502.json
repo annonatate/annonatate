@@ -1,0 +1,44 @@
+---
+canvas: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+order: 14
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Mitochondrion (mitcochondria)</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=207,478,113,79"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M206.85301,477.99975h56.71491v0h56.71491v39.57186v39.57186h-56.71491h-56.71491v-39.57186z\"  id=\"rectangle_9a9d7f68-f035-421e-9d84-c1f6803d301b\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-10-17T21:51:59.447Z",
+    "@id": "21f6fb25-01c9-4dbb-b7f4-c3f6f1bf1502.json",
+    "oa:annotatedBy": [
+        "Annonatate"
+    ]
+}
