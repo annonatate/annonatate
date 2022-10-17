@@ -4,16 +4,14 @@ order: 5
 ---
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "470956f4-e818-4fd6-b5f0-fda7587360f1.json",
     "@type": "oa:Annotation",
     "motivation": [
         "oa:commenting"
     ],
-    "resource": [
-        {
-            "@type": "dctypes:Text",
-            "format": "text/html",
-            "chars": "<p>Ribosomes</p>"
-        }
+    "oa:annotatedAt": "2022-10-17T21:48:25.398Z",
+    "oa:annotatedBy": [
+        "Annonatate"
     ],
     "on": [
         {
@@ -27,7 +25,7 @@ order: 5
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M780.4073,438.81706h-9v0h-9v10.09091v10.09091h9h9v-10.09091z\"  id=\"rectangle_610c6f62-1277-41ef-8047-9f3218e73107\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M780.4073,438.81706h-9v0h-9v10.09091v10.09091h9h9v-10.09091z\"  id=\"rectangle_610c6f62-1277-41ef-8047-9f3218e73107\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -42,11 +40,11 @@ order: 5
                 "@type": "oa:Choice",
                 "default": {
                     "@type": "oa:FragmentSelector",
-                    "value": "xywh=727,445,16,10"
+                    "value": "xywh=716,444,17,11"
                 },
                 "item": {
                     "@type": "oa:SvgSelector",
-                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M726.77093,445.1807h7.81818v0h7.81818v5.09091v5.09091h-7.81818h-7.81818v-5.09091z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_dc4f702a-20cc-4610-9dac-786488d1ee99\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M715.86184,444.27161h8.72727v0h8.72727v5.54546v5.54546h-8.72727h-8.72727v-5.54546z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null}\" id=\"rectangle_dc4f702a-20cc-4610-9dac-786488d1ee99\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5.45455\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
                 }
             },
             "within": {
@@ -55,9 +53,12 @@ order: 5
             }
         }
     ],
-    "oa:annotatedAt": "2022-10-17T21:48:25.398Z",
-    "@id": "470956f4-e818-4fd6-b5f0-fda7587360f1.json",
-    "oa:annotatedBy": [
-        "Annonatate"
-    ]
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "chars": "<p>Ribosomes</p>",
+            "format": "text/html"
+        }
+    ],
+    "oa:serializedAt": "2022-10-17T21:48:36.405Z"
 }
