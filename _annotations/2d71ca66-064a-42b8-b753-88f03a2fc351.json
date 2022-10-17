@@ -1,0 +1,44 @@
+---
+canvas: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+order: 18
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Thylakoid membrane</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=212,250,44,94"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M253.01799,249.57712c-3.04801,3.04801 -15.56877,10.22845 -16.36364,11.81818c-2.8718,5.7436 -6.01471,25.10562 -9.09091,28.18182c-9.04621,9.04621 -19.43216,15.33989 -14.54545,30c0.06115,0.18346 -0.30246,3.3339 0,3.63636c1.47478,1.47478 4.68031,3.77122 6.36364,5.45455c0.21427,0.21427 0.13552,0.63805 0,0.90909c-1.11914,2.23827 1.95297,13.63636 5.45455,13.63636c0.90909,0 0.14945,-1.83055 0,-2.72727c-0.75284,-4.51704 -2.61559,-9.77663 -4.54545,-13.63636c-0.27104,-0.54208 0,-1.21212 0,-1.81818c0,-3.05103 2.79605,-2.86483 3.63636,-4.54545c2.54519,-5.09037 2.67242,-11.65361 4.54545,-17.27273c2.39154,-7.17463 4.49975,-16.31793 10,-21.81818c6.8677,-6.8677 17.27273,-18.1552 17.27273,-29.09091\"  id=\"smooth_path_a816045e-7694-4f71-8f84-4a2c75b40f5d\" fill=\"none\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-10-17T21:53:28.978Z",
+    "@id": "2d71ca66-064a-42b8-b753-88f03a2fc351.json",
+    "oa:annotatedBy": [
+        "Annonatate"
+    ]
+}
