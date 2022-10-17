@@ -1,0 +1,68 @@
+---
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Plant Cell structure"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Original image is https&#x3a;//commons.wikimedia.org/wiki/File&#x3a;Plant_cell_structure_no_text-2.svg"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/canvas/cell-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "plant_cell_structure_no_text-2"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/plantcellstructurenotext2/full/120,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1405,
+      "width": 1920,
+      "items": [
+        {
+          "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/plantcellstructurenotext2/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1405,
+                "width": 1920,
+                "service": [
+                  {
+                    "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/plantcellstructurenotext2",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/canvas/cell-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

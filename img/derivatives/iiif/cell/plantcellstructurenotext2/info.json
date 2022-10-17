@@ -1,0 +1,70 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell//plantcellstructurenotext2",
+  "height": 1405,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 351,
+      "width": 480
+    },
+    {
+      "height": 176,
+      "width": 240
+    },
+    {
+      "height": 88,
+      "width": 120
+    },
+    {
+      "height": 44,
+      "width": 60
+    },
+    {
+      "height": 22,
+      "width": 30
+    },
+    {
+      "height": 11,
+      "width": 15
+    },
+    {
+      "height": 5,
+      "width": 8
+    },
+    {
+      "height": 3,
+      "width": 4
+    },
+    {
+      "height": 1,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 512
+    }
+  ],
+  "width": 1920
+}
