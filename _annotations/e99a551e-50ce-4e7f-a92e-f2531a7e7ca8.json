@@ -1,0 +1,44 @@
+---
+canvas: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+order: 8
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Nucleolus</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=571,481,72,71"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M581.37382,491.06582c6.63121,-5.94054 15.98561,-10.36426 25.38535,-10.35898v0v0c9.39973,0.00529 17.58848,4.14361 25.38535,10.35898c7.79687,6.21537 10.82742,15.6864 10.51495,25.00879c-0.31246,9.32238 -3.96793,18.49612 -10.51495,25.00879c-6.54703,6.51267 -15.98561,10.36426 -25.38535,10.35898c-9.39973,-0.00529 -18.76061,-3.86745 -25.38535,-10.35898c-6.62474,-6.49153 -10.51334,-15.61241 -10.51495,-25.00879c-0.00162,-9.39638 3.88374,-19.06825 10.51495,-25.00879z\"  id=\"ellipse_3948d789-1d9b-481e-a85a-ad7e8749ede3\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-10-17T21:49:44.061Z",
+    "@id": "e99a551e-50ce-4e7f-a92e-f2531a7e7ca8.json",
+    "oa:annotatedBy": [
+        "Annonatate"
+    ]
+}
