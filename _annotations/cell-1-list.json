@@ -1,9 +1,0 @@
----
-canvas_id: "https://annonatate.github.io/examples/img/derivatives/iiif/cell/canvas/cell-1"
----
-{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
-{
-"@context": "http://iiif.io/api/presentation/3/context.json",
-"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
-"type": "AnnotationPage",
-"items": [{{ annotations | join: ","}}] }
