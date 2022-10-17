@@ -1,0 +1,44 @@
+---
+canvas: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+order: 13
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Peroxisome</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=234,555,73,54"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M234.04182,554.51818h36.34545v0h36.34545v26.92v26.92h-36.34545h-36.34545v-26.92z\"  id=\"rectangle_317c4d41-f3a9-4acd-863c-03e8162f16ac\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-10-17T21:51:40.334Z",
+    "@id": "29778758-70b1-402e-bb06-2025f1821998.json",
+    "oa:annotatedBy": [
+        "Annonatate"
+    ]
+}
