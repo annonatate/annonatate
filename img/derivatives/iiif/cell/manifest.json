@@ -1,74 +1,43 @@
 ---
-layout: none
 ---
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/manifest.json",
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Plant Cell structure"
-    ]
-  },
-  "summary": {
-    "en": [
-      "Original image is https&#x3a;//commons.wikimedia.org/wiki/File&#x3a;Plant_cell_structure_no_text-2.svg"
-    ]
-  },
-  "behavior": [
-    "paged"
-  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Plant Cell structure",
+  "description": "Original image is https&#x3a;//commons.wikimedia.org/wiki/File&#x3a;Plant_cell_structure_no_text-2.svg",
   "viewingDirection": "left-to-right",
-  "items": [
+  "sequences": [
     {
-      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/canvas/cell-1",
-      "type": "Canvas",
-      "label": {
-        "en": [
-          "cell"
-        ]
-      },
-      "thumbnail": [
+      "@type": "sc:Sequence",
+      "canvases": [
         {
-          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/cell/full/145,/0/default.jpg",
-          "type": "thumbnail"
-        }
-      ],
-      "height": 1005,
-      "width": 1157,
-      "items": [
-        {
-          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/page/p1/1",
-          "type": "AnnotationPage",
-          "items": [
+          "@id": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+          "@type": "sc:Canvas",
+          "label": "cell",
+          "thumbnail": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell/full/145,/0/default.jpg",
+          "height": 1005,
+          "width": 1157,
+          "images": [
             {
-              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/annotation/p0001-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/cell/full/full/0/default.jpg",
-                "type": "Image",
+              "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell/annotation/1.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1005,
                 "width": 1157,
-                "service": [
-                  {
-                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/cell",
-                    "type": "ImageService2",
-                    "profile": "level1"
-                  }
-                ]
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
               },
-              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/canvas/cell-1"
+              "on": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
             }
           ]
-        }
-      ],
-      "annotations": [
-        {
-          "id": "{{ '/' | absolute_url }}annotations/cell-1-list.json",
-          "type": "AnnotationPage",
-          "target": "{{ '/' | absolute_url }}img/derivatives/iiif/cell/canvas/cell-1"
         }
       ]
     }
