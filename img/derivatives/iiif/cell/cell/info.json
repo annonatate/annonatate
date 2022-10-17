@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell//cell",
+  "height": 1005,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 251,
+      "width": 289
+    },
+    {
+      "height": 126,
+      "width": 145
+    },
+    {
+      "height": 63,
+      "width": 72
+    },
+    {
+      "height": 31,
+      "width": 36
+    },
+    {
+      "height": 16,
+      "width": 18
+    },
+    {
+      "height": 8,
+      "width": 9
+    },
+    {
+      "height": 4,
+      "width": 5
+    },
+    {
+      "height": 2,
+      "width": 2
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2
+      ],
+      "width": 512
+    }
+  ],
+  "width": 1157
+}

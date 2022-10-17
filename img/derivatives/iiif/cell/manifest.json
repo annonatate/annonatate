@@ -24,17 +24,17 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "plant_cell_structure_no_text-2"
+          "cell"
         ]
       },
       "thumbnail": [
         {
-          "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/plantcellstructurenotext2/full/120,/0/default.jpg",
+          "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell/full/145,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
-      "height": 1405,
-      "width": 1920,
+      "height": 1005,
+      "width": 1157,
       "items": [
         {
           "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/page/p1/1",
@@ -45,14 +45,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/plantcellstructurenotext2/full/full/0/default.jpg",
+                "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 1405,
-                "width": 1920,
+                "height": 1005,
+                "width": 1157,
                 "service": [
                   {
-                    "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/plantcellstructurenotext2",
+                    "id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/cell",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
