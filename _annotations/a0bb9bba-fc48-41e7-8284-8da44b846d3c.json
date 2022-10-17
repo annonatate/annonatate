@@ -1,0 +1,63 @@
+---
+canvas: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+order: 1
+---
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@type": "oa:Annotation",
+    "motivation": [
+        "oa:commenting"
+    ],
+    "resource": [
+        {
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "<p>Plasmodesmata</p>"
+        }
+    ],
+    "on": [
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=229,138,105,50"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M228.90909,138h52.36364v0h52.36364v25.09091v25.09091h-52.36364h-52.36364v-25.09091z\"  id=\"rectangle_d19d040c-f901-44ee-ab9c-8891860b7e08\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        },
+        {
+            "@type": "oa:SpecificResource",
+            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "selector": {
+                "@type": "oa:Choice",
+                "default": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=434,30,131,58"
+                },
+                "item": {
+                    "@type": "oa:SvgSelector",
+                    "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M434.36364,29.81818h65.54545v0h65.54545v29.18182v29.18182h-65.54545h-65.54545v-29.18182z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_8044b773-e625-4921-87c8-79ab63abab02\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+                }
+            },
+            "within": {
+                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@type": "sc:Manifest"
+            }
+        }
+    ],
+    "oa:annotatedAt": "2022-10-17T21:46:50.663Z",
+    "@id": "a0bb9bba-fc48-41e7-8284-8da44b846d3c.json",
+    "oa:annotatedBy": [
+        "Annonatate"
+    ]
+}
