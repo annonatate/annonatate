@@ -1,5 +1,5 @@
 ---
-canvas_id: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+canvas_id: "https://annonatate.github.io/mirador-examples/canvas/img/derivatives/iiif/cell/cell.json"
 ---
 {% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
 {

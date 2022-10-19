@@ -1,5 +1,5 @@
 ---
-canvas: "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json"
+canvas: "https://annonatate.github.io/mirador-examples/canvas/img/derivatives/iiif/cell/cell.json"
 order: 4
 ---
 {
@@ -18,7 +18,7 @@ order: 4
     "on": [
         {
             "@type": "oa:SpecificResource",
-            "full": "https://annonatate.github.io/examples/canvas/img/derivatives/iiif/cell/cell.json",
+            "full": "https://annonatate.github.io/mirador-examples/canvas/img/derivatives/iiif/cell/cell.json",
             "selector": {
                 "@type": "oa:Choice",
                 "default": {
@@ -31,7 +31,7 @@ order: 4
                 }
             },
             "within": {
-                "@id": "https://annonatate.github.io/examples/img/derivatives/iiif/cell/manifest.json",
+                "@id": "https://annonatate.github.io/mirador-examples/img/derivatives/iiif/cell/manifest.json",
                 "@type": "sc:Manifest"
             }
         }
