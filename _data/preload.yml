@@ -15,5 +15,5 @@ manifests:
 - https://purl.stanford.edu/wh234bz9013/iiif/manifest
 settings:
   tempuser: notenabled
-  viewer: mirador
+  viewer: default
   widgets: comment-with-purpose, tag, geotagging
