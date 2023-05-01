@@ -1,19 +1,13 @@
 ---
 layout: null
-permalink: /
 ---
 {% assign images = site.static_files | where_exp: 'item', 'item.path contains "/images/"' | sort_natural | map: 'path' %}
 {% assign collections = site.pages | where_exp: 'item', 'item.dir == "/collections/"' | sort_natural %}
-{% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' | map: 'url' %}
+{% assign manifests = site.pages | where_exp: 'item', 'item.name contains "manifest.json"' %}
 {% assign customviews = site.pages | where_exp: 'item', 'item.dir contains "customviews"' | sort_natural %}
-{% assign manifestarray = '' | split: "" %}
-{% for manifest in manifests %}
-{% assign item = manifest | prepend: site.baseurl | prepend: site.url %}
- {% assign manifestarray = manifestarray | push: item %}
-{% endfor %}
 {% assign imagearray = '' | split: "" %}
 {% for image in images %}
-{% unless image contains 'assets' %}
+{% unless image contains 'assets' or image contains 'derivatives'%}
  {% assign item = image | prepend: site.baseurl | prepend: site.url %}
  {% assign imagearray = imagearray | push: item %}
 {% endunless %}
@@ -21,10 +15,12 @@ permalink: /
 {"annotations": [{% for file in site.annotations %}{
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: file.url| append: file.ext | jsonify}},{{'order' | jsonify}}:{{file.order | jsonify}}, {{'json' | jsonify}}:{{file.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
-"manifests": {{manifestarray | jsonify}}, "images": {{imagearray| jsonify}}, 
+"manifests": [{% for manifest in manifests %}{
+{{'url' | jsonify}}:{{site.url | append: site.baseurl | append: manifest.url| append: manifest.ext | jsonify}}, {{'iiif' | jsonify}}: {{true | jsonify}}, {{'upload' | jsonify}}: {{true | jsonify}},{{'added' | jsonify}}: {{manifest.added | jsonify}},{%if manifest.thumbnail%}{{'thumbnail' | jsonify }}: {{manifest.thumbnail | jsonify}}, {{'title' | jsonify }}: {{manifest.title | jsonify}}{% else %}{{'json' | jsonify}}:{{manifest.content | jsonify}}{%endif%}
+}{% unless forloop.last %},{% endunless %}{% endfor %}], "images": {{imagearray| jsonify}}, 
  "preloadedcontent": {{site.data.preload | jsonify}},
 "customviews": [{% for customview in customviews %}{
-{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: customview.url| jsonify}},{{'json' | jsonify}}:{{customview.content | replace: '<script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>', '' | replace: '<link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">', '' | replace: "<", "&lt;" | replace: ">", "&gt;" | jsonify}}
+{{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: customview.url| jsonify}}, {{'editurl' | jsonify}}:{{customview.tagurl| jsonify}},{{'json' | jsonify}}:{{customview.content | replace: '<script src="https://ncsu-libraries.github.io/annona/dist/annona.js"></script>', '' | replace: '<link rel="stylesheet" type="text/css" href="https://ncsu-libraries.github.io/annona/dist/annona.css">', '' | replace: "<", "&lt;" | replace: ">", "&gt;" | jsonify}}
 }{% unless forloop.last %},{% endunless %}{% endfor %}],
  "collections": [{% for collection in collections %}{
 {{'filename' | jsonify}}:{{site.url | append: site.baseurl | append: collection.url| jsonify}},{{'json' | jsonify}}:{{collection.content | replace: "<", "&lt;" | replace: ">", "&gt;"}}
