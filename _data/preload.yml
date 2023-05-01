@@ -1,10 +1,22 @@
 images:
-- https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
-- https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
-manifests:
-- https://d.lib.ncsu.edu/collections/catalog/segIns_020/manifest.json
-- https://media.nga.gov/public/manifests/nga_highlights.json
+- iiif: true
+  thumbnail: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/full/120,/0/default.jpg
+  title: ''
+  url: https://repository.duke.edu/fcgi-bin/iipsrv.fcgi?IIIF=/nas/repo_deriv/hydra/multires_image/40/58/a6/28/4058a628-c593-463e-9736-8a821e178fee/info.json
+- iiif: false
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+  title: ''
+  url: https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg
+- iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/segIns_020/full/150,/0/default.jpg
+  title: Insectes. [patterns]
+  url: https://d.lib.ncsu.edu/collections/catalog/segIns_020/manifest.json
+- iiif: true
+  thumbnail: https://media.nga.gov/iiif/public/objects/1/0/6/3/8/2/106382-primary-0-nativeres.ptif/full/120,/0/default.jpg
+  title: National Gallery of Art Collection Highlights
+  url: https://media.nga.gov/public/manifests/nga_highlights.json
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
+version: '2.0'
