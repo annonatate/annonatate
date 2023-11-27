@@ -1,7 +1,3 @@
-images:
-- 
-settings:
-  tempuser: notenabled
-  viewer: default
-  widgets: comment-with-purpose, tag, geotagging
-version: '2.0'
+images: []
+settings: {}
+version: '2.1'
